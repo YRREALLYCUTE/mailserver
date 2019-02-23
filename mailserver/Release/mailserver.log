@@ -1,0 +1,14 @@
+﻿  stdafx.cpp
+  mailserver.cpp
+  mailserverDlg.cpp
+mailserverDlg.cpp(203): warning C4018: “<”: 有符号/无符号不匹配
+mailserverDlg.cpp(213): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+  mysocket.cpp
+e:\vs 2015 projects\mailserver\mailserver\base64Decode.h(41): warning C4244: “初始化”: 从“wchar_t”转换到“char”，可能丢失数据
+e:\vs 2015 projects\mailserver\mailserver\base64Decode.h(73): warning C4244: “=”: 从“wchar_t”转换到“unsigned char”，可能丢失数据
+  正在生成代码
+  217 of 324 functions (67.0%) were compiled, the rest were copied from previous compilation.
+    92 functions were new in current compilation
+    8 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  mailserver.vcxproj -> E:\VS 2015 projects\mailserver\Release\mailserver.exe

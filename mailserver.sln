@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mailserver", "mailserver\mailserver.vcxproj", "{810B0AB9-DA19-45EC-A34F-4ECB46B39581}"
+EndProject
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "Setup5", "Setup5\Setup5.isproj", "{0BDA6561-8014-43D0-8483-22FE863C7A34}"
+	ProjectSection(ProjectDependencies) = postProject
+		{810B0AB9-DA19-45EC-A34F-4ECB46B39581} = {810B0AB9-DA19-45EC-A34F-4ECB46B39581}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|x64 = CD_ROM|x64
+		CD_ROM|x86 = CD_ROM|x86
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		DVD-5|x64 = DVD-5|x64
+		DVD-5|x86 = DVD-5|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+		SingleImage|x64 = SingleImage|x64
+		SingleImage|x86 = SingleImage|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{810B0AB9-DA19-45EC-A34F-4ECB46B39581}.CD_ROM|x64.ActiveCfg = Release|x64
+		{810B0AB9-DA19-45EC-A34F-4ECB46B39581}.CD_ROM|x64.Build.0 = Release|x64
+		{810B0AB9-DA19-45EC-A34F-4ECB46B39581}.CD_ROM|x86.ActiveCfg = Release|Win32
+		{810B0AB9-DA19-45EC-A34F-4ECB46B39581}.CD_ROM|x86.Build.0 = Release|Win32
+		{810B0AB9-DA19-45EC-A34F-4ECB46B39581}.Debug|x64.ActiveCfg = Debug|x64
+		{810B0AB9-DA19-45EC-A34F-4ECB46B39581}.Debug|x64.Build.0 = Debug|x64
+		{810B0AB9-DA19-45EC-A34F-4ECB46B39581}.Debug|x86.ActiveCfg = Debug|Win32
+		{810B0AB9-DA19-45EC-A34F-4ECB46B39581}.Debug|x86.Build.0 = Debug|Win32
+		{810B0AB9-DA19-45EC-A34F-4ECB46B39581}.DVD-5|x64.ActiveCfg = Debug|x64
+		{810B0AB9-DA19-45EC-A34F-4ECB46B39581}.DVD-5|x64.Build.0 = Debug|x64
+		{810B0AB9-DA19-45EC-A34F-4ECB46B39581}.DVD-5|x86.ActiveCfg = Debug|Win32
+		{810B0AB9-DA19-45EC-A34F-4ECB46B39581}.DVD-5|x86.Build.0 = Debug|Win32
+		{810B0AB9-DA19-45EC-A34F-4ECB46B39581}.Release|x64.ActiveCfg = Release|x64
+		{810B0AB9-DA19-45EC-A34F-4ECB46B39581}.Release|x64.Build.0 = Release|x64
+		{810B0AB9-DA19-45EC-A34F-4ECB46B39581}.Release|x86.ActiveCfg = Release|Win32
+		{810B0AB9-DA19-45EC-A34F-4ECB46B39581}.Release|x86.Build.0 = Release|Win32
+		{810B0AB9-DA19-45EC-A34F-4ECB46B39581}.SingleImage|x64.ActiveCfg = Release|x64
+		{810B0AB9-DA19-45EC-A34F-4ECB46B39581}.SingleImage|x64.Build.0 = Release|x64
+		{810B0AB9-DA19-45EC-A34F-4ECB46B39581}.SingleImage|x86.ActiveCfg = Release|Win32
+		{810B0AB9-DA19-45EC-A34F-4ECB46B39581}.SingleImage|x86.Build.0 = Release|Win32
+		{0BDA6561-8014-43D0-8483-22FE863C7A34}.CD_ROM|x64.ActiveCfg = CD_ROM
+		{0BDA6561-8014-43D0-8483-22FE863C7A34}.CD_ROM|x64.Build.0 = CD_ROM
+		{0BDA6561-8014-43D0-8483-22FE863C7A34}.CD_ROM|x86.ActiveCfg = CD_ROM
+		{0BDA6561-8014-43D0-8483-22FE863C7A34}.CD_ROM|x86.Build.0 = CD_ROM
+		{0BDA6561-8014-43D0-8483-22FE863C7A34}.Debug|x64.ActiveCfg = DVD-5
+		{0BDA6561-8014-43D0-8483-22FE863C7A34}.Debug|x64.Build.0 = DVD-5
+		{0BDA6561-8014-43D0-8483-22FE863C7A34}.Debug|x86.ActiveCfg = DVD-5
+		{0BDA6561-8014-43D0-8483-22FE863C7A34}.Debug|x86.Build.0 = DVD-5
+		{0BDA6561-8014-43D0-8483-22FE863C7A34}.DVD-5|x64.ActiveCfg = DVD-5
+		{0BDA6561-8014-43D0-8483-22FE863C7A34}.DVD-5|x64.Build.0 = DVD-5
+		{0BDA6561-8014-43D0-8483-22FE863C7A34}.DVD-5|x86.ActiveCfg = DVD-5
+		{0BDA6561-8014-43D0-8483-22FE863C7A34}.DVD-5|x86.Build.0 = DVD-5
+		{0BDA6561-8014-43D0-8483-22FE863C7A34}.Release|x64.ActiveCfg = SingleImage
+		{0BDA6561-8014-43D0-8483-22FE863C7A34}.Release|x64.Build.0 = SingleImage
+		{0BDA6561-8014-43D0-8483-22FE863C7A34}.Release|x86.ActiveCfg = SingleImage
+		{0BDA6561-8014-43D0-8483-22FE863C7A34}.Release|x86.Build.0 = SingleImage
+		{0BDA6561-8014-43D0-8483-22FE863C7A34}.SingleImage|x64.ActiveCfg = SingleImage
+		{0BDA6561-8014-43D0-8483-22FE863C7A34}.SingleImage|x64.Build.0 = SingleImage
+		{0BDA6561-8014-43D0-8483-22FE863C7A34}.SingleImage|x86.ActiveCfg = SingleImage
+		{0BDA6561-8014-43D0-8483-22FE863C7A34}.SingleImage|x86.Build.0 = SingleImage
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
